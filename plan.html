@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Plan Your Trip</title>
+<style>
+body
+{
+ font-family: Arial;
+ background: whitesmoke;
+ margin:0;
+ padding:20px;
+ display:flex; 
+justify-content:center;
+ }
+.page
+{
+ width:750px; 
+background:white;
+ border:1px solid #ccc;
+ }
+.header
+{
+ background:teal;
+ color:white;
+ text-align:center;
+ padding:15px;
+ }
+.header h1
+{
+ font-size:22px;
+ margin:0;
+ }
+.header p
+{ font-size:11px;
+ margin:5px 0 0; 
+}
+.nav
+{
+ background:honeydew;
+ padding:8px 20px; 
+}
+
+.nav a
+{
+ text-decoration:none;
+ font-size:13px;
+ color:teal;
+ margin-right:10px;
+ padding:4px 10px; 
+}
+.active
+{
+ background:teal;
+ color:white !important;
+ border-radius:4px; 
+}
+.content
+{
+ padding:15px 25px; 
+}
+.form-box
+{
+ background:mintcream;
+ border:1px solid #ccc; padding:15px;
+ }
+label
+{ 
+font-size:12px; 
+font-weight:bold; 
+}
+input, select, textarea
+{
+ width:95%;
+ padding:5px; 
+margin:5px 0 10px 0;
+ font-size:12px;
+ }
+.footer
+{
+ background:teal;
+ color:white; text-align:center; font-size:11px; padding:8px; margin-top:15px;
+ }
+</style>
+</head>
+<body>
+<div class="page">
+<div class="header">
+<h1>Explore Pakistan</h1>
+<p>Beautiful Places • Rich Culture • Unforgettable Experiences</p>
+</div>
+<div class="nav">
+<a href="index.html">Home</a>
+<a href="plan.html" class="active">Plan Your Trip</a>
+</div>
+<div class="content">
+<h2>Plan Your Trip</h2>
+<p style="font-size:12px;">Fill in the form below to plan your dream trip to Pakistan.</p>
+<a href="home.html" style="font-size:12px;">◀ Back to Home</a><br><br>
+
+<div class="form-box">
+<form>
+<p style="font-weight:bold; color:teal; border-bottom:1px solid #0b5a4d;">Personal Information</p>
+
+<label>Full Name *</label><br>
+<input type="text" placeholder="Enter your full name"><br>
+
+<label>Email Address *</label><br>
+<input type="email" placeholder="example@domain.com"><br>
+
+<label>Phone Number</label><br>
+<input type="text" placeholder="03XX-XXXXXXX"><br>
+
+<p style="font-weight:bold; color:teal; border-bottom:1px solid #0b5a4d;">Trip Details</p>
+
+<label>Destination *</label><br>
+<select><option>Select a destination</option><option>Hunza</option><option>Skardu</option><option>Murree</option><option>Swat</option></select><br>
+
+<label>Departure Date *</label><br>
+<input type="date"><br>
+
+<label>Number of Travellers (1-10)</label><br>
+<input type="number" min="1" max="10" value="1"><br>
+
+<p style="font-weight:bold; color:teal; border-bottom:1px solid #0b5a4d;">Travel Preferences</p>
+
+<label>Travel Type *</label><br>
+<input type="radio" name="t" style="width:auto;"> Solo
+<input type="radio" name="t" style="width:auto;"> Family
+<input type="radio" name="t" style="width:auto;"> Friends<br><br>
+
+<label>Interests</label><br>
+<input type="checkbox" style="width:auto;"> Sightseeing
+<input type="checkbox" style="width:auto;"> Photography<br>
+<input type="checkbox" style="width:auto;"> Hiking
+<input type="checkbox" style="width:auto;"> Shopping<br><br>
+
+<p style="font-weight:bold; color:#0b5a4d; border-bottom:1px solid #0b5a4d;">Special Requests</p>
+<textarea placeholder="Tell us if you have any special requests"></textarea><br>
+
+<input type="submit" value="Submit" style="background:teal; color:white; border:none; padding:6px 15px; width:auto;">
+<input type="reset" value="Reset" style="width:auto; padding:6px 15px;">
+</form>
+</div>
+</div>
+<div class="footer">Made by FAHAD KHALID | Roll No: 26L-2599</div>
+</div>
+</body>
+</html>
